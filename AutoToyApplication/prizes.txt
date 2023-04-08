@@ -1,0 +1,66 @@
+
+id: 2
+name: constructor
+quantity: 1
+weight: 0,52
+
+
+id: 1
+name: barbie
+quantity: 1
+weight: 0,34
+
+
+id: 1
+name: lego
+quantity: 10
+weight: 0,74
+
+
+id: 1
+name: lego
+quantity: 10
+weight: 0,74
+
+
+id: 1
+name: lego
+quantity: 10
+weight: 0,74
+
+
+id: 1
+name: lego
+quantity: 10
+weight: 0,74
+
+
+id: 1
+name: lego
+quantity: 9
+weight: 0,74
+
+
+id: 1
+name: lego
+quantity: 9
+weight: 0,74
+
+
+id: 2
+name: ball
+quantity: 22
+weight: 0,89
+
+
+id: 1
+name: lego
+quantity: 8
+weight: 0,74
+
+
+id: 2
+name: ball
+quantity: 22
+weight: 0,89
+
