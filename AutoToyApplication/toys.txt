@@ -1,0 +1,12 @@
+
+id: 1
+name: lego
+quantity: 7
+weight: 0,74
+
+
+id: 2
+name: ball
+quantity: 21
+weight: 0,89
+
