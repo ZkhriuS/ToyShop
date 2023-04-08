@@ -1,0 +1,45 @@
+1)   Используйте команды операционной системы Linux и 
+создайте две новых директории – «Игрушки для школьников» и 
+«Игрушки для дошколят»
+
+	zs@zs-VirtualBox:~$ mkdir preschooler_toys pupil_toys
+
+2)   Создайте в директории «Игрушки для школьников» текстовые файлы
+ - «Роботы», «Конструктор», «Настольные игры»
+
+	zs@zs-VirtualBox:~$ cd pupil_toys/
+	zs@zs-VirtualBox:~/pupil_toys$ touch robots constructor board_games
+
+3)    Создайте в директории «Игрушки для дошколят» текстовые файлы
+ «Мягкие игрушки», «Куклы», «Машинки»
+
+	zs@zs-VirtualBox:~/pupil_toys$ cd ../preschooler_toys/
+	zs@zs-VirtualBox:~/preschooler_toys$ touch soft_toys dolls cars
+
+4)   Объединить 2 директории в одну «Имя Игрушки»
+
+	zs@zs-VirtualBox:~/preschooler_toys$ cd ..
+	zs@zs-VirtualBox:~$ mkdir name_toys
+	zs@zs-VirtualBox:~$ mv preschooler_toys/* pupil_toys/* -t name_toys
+
+5)   Переименовать директорию «Имя Игрушки» в «Игрушки»
+
+	zs@zs-VirtualBox:~$ mv name_toys/ toys/
+
+6)   Просмотреть содержимое каталога «Игрушки».
+
+	zs@zs-VirtualBox:~$ ls -al toys/
+
+7)   Установить и удалить snap-пакет. (Любой, какой хотите)
+	
+	zs@zs-VirtualBox:~$ sudo snap search mysql
+ 	zs@zs-VirtualBox:~$ sudo snap install mysql-shell
+ 	zs@zs-VirtualBox:~$ sudo snap remove mysql-shell
+
+8)   Добавить произвольную задачу для выполнения каждые 3 минуты 
+(Например, запись в текстовый файл чего-то или копирование из каталога А
+ в каталог Б).
+
+	zs@zs-VirtualBox:~/seminar4$ crontab -e
+
+	*/3 * * * * echo "new toy" >> ~/toys/soft_toys
